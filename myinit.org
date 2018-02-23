@@ -1,0 +1,67 @@
+es#+STARTUP: overview
+* Init stuff
+#+BEGIN_SRC emacs-lisp
+(setq inhibit-startup-message t)
+
+
+(require 'package)
+(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+		    (not (gnutls-available-p))))
+       (proto (if no-ssl "http" "https")))
+
+  ;; Comment/uncomment these two lines to enable/disable MELPA and MELPA Stable as desired
+  (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
+
+  ;;(add-to-list 'package-archives (cons "melpa-stable" (concat proto
+  ;;"://stable.melpa.org/packages/")) t)
+  (when (< emacs-major-version 24)
+    ;; For important compatibility libraries like cl-lib
+    (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/")))))
+(package-initialize)
+
+;; Install use package which is the apt-install of emacs
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+  
+#+END_SRC
+* try
+#+BEGIN_SRC emacs-lisp
+(use-package try
+:ensure t)
+#+END_SRC
+
+* Org Mode
+#+BEGIN_SRC emacs-lisp
+(use-package org-bullets
+  :ensure t
+  :config
+  (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+
+            (custom-set-variables
+             '(org-directory "~/org/")
+             '(org-default-notes-file (concat org-directory "/notes.org"))
+             '(org-export-html-postamble nil)
+             '(org-hide-leading-stars t)
+             '(org-startup-folded (quote overview))
+             '(org-startup-indented t)
+             )
+            (global-set-key "\C-ca" 'org-agenda)
+
+            (setq org-agenda-files (list "~/org/work.org"
+                 "~/org/reichenbach.org"))
+
+#+END_SRC
+
+* Themes and modeline
+  #+BEGIN_SRC emacs-lisp
+        (use-package zenburn-theme
+          :ensure t
+          :config (load-theme 'zenburn t)) 
+
+     (load-theme 'zenburn t)
+  #+END_SRC
+
+  #+RESULTS:
+  : t
+
