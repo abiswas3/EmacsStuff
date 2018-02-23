@@ -2,6 +2,7 @@
 #+BEGIN_SRC emacs-lisp
 (setq inhibit-startup-message t)
 
+(global-linum-mode 1)
 
 (require 'package)
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))

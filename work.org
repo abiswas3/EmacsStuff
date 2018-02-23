@@ -1,5 +1,5 @@
 * Refinforcement learning
 ** TODO Deep Reinforcement class
+DEADLINE: <2018-03-03 Sat>
 * Software applications
-
 ** ZeroMQ Message passing

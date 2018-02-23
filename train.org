@@ -1,5 +1,12 @@
 * Climb calendar
-| Week Starting | Mon | Tues | Wed | Thurs | Fri | Sat | Sun |
+| Week Starting | Mon | Tues | Wed | Thurs | Fri | Sat | Sun 
+|   Feb 19      |     |   x  |     |       |     |     |     |
+|   Feb 26      |     |      |     |       |     |     |     |
+|   March 5     |     |      |     |       |     |     |     |
+
+* Run calendar
+| Week Starting | Mon | Tues | Wed | Thurs | Fri | Sat | Sun 
+|   Feb 19      |  x  |      |  x  |   x   |     |     |     |
 |   Feb 26      |     |      |     |       |     |     |     |
 |   March 5     |     |      |     |       |     |     |     |
 
@@ -8,19 +15,15 @@
 |   Feb 26      |     |      |     |       |     |     |     |
 |   March 5     |     |      |     |       |     |     |     |
 
-
-* TODO Foam roll :DAILY:
-SCHEDULED: <2018-02-22 Thu +1d>
-- State "DONE"       from "IN_PROGRESS" [2018-02-22 Thu 23:23]
-
-* TODO Push ups :DAILY:
-- State "DONE"       from "TODO"       [2018-02-22 Thu 23:32]
-15 x 2 feet elevated
-15 regular
-SCHEDULED: <2018-02-22 Thu +1d>
-:PROPERTIES:
-:LAST_REPEAT: [2018-02-22 Thu 23:32]
-:END:
+* Strenth calendar
+| Week Starting | Mon | Tues | Wed | Thurs | Fri | Sat | Sun |
+|   Feb 26      |     |      |     |       |     |     |     |
+|   March 5     |     |      |     |       |     |     |     |
 
 
-  
+* NEXT Friday 6 miler
+SCHEDULED: <2018-02-23 Fri>
+
+* NEXT Make- morning home core circuit 30-40 minute circuit
+SCHEDULED: <2018-02-23 Fri>
+Dig into the climbing book

@@ -1,11 +1,15 @@
-#+PRIORITIES: A B C
-
 * IN_PROGRESS Cryptopals
 ** DONE SET 1
 ** DONE SET 2
 ** DONE SET 3
 ** DONE SET 4
-** IN_PROGRESS BUG SET 5
+** NEXT SET 5
+DEADLINE: <2018-02-24 Sat>
+Finish till RSA : Implement simple for 34 in simulation
 ** TODO SET 6
 * CTF
-
+* Projects with Haversham
+** Break A real image classifier 
+** Get the voice to misclassify -simply
+Just get the attack working
+** Write a review blog on all of the image attacks
