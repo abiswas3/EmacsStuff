@@ -1,4 +1,3 @@
-es#+STARTUP: overview
 * Init stuff
 #+BEGIN_SRC emacs-lisp
 (setq inhibit-startup-message t)
@@ -37,20 +36,44 @@ es#+STARTUP: overview
   :ensure t
   :config
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
-
             (custom-set-variables
              '(org-directory "~/org/")
              '(org-default-notes-file (concat org-directory "/notes.org"))
              '(org-export-html-postamble nil)
              '(org-hide-leading-stars t)
-             '(org-startup-folded (quote overview))
-             '(org-startup-indented t)
              )
             (global-set-key "\C-ca" 'org-agenda)
 
             (setq org-agenda-files (list "~/org/work.org"
-                 "~/org/reichenbach.org"))
+                "~/org/train.org"
+                "~/org/reichenbach.org"))
 
+;(setq org-todo-keywords '((sequence "TODO" "IN_PROGRESS" "WAITING" "|" "DONE" "DELEGATED")))
+;(setq org-todo-keywords '((type "Fred" "Sara" "Lucy" "|" "DONE")))
+
+(setq org-todo-keywords
+      '((sequence "TODO(t)" "NEXT(n)" "IN_PROGRESS(i)" "|" "DONE")
+        (sequence  "BROKEN" "DELAYED" "|" "FIXED" "DELEGATED")
+        (sequence "|" "CANCELED")))
+
+
+(setq org-agenda-custom-commands
+      '(("h" "Daily habits" 
+         ((agenda ""))
+         ((org-agenda-show-log t)
+          (org-agenda-ndays 7)
+          (org-agenda-log-mode-items '(state))
+          (org-agenda-skip-function '(org-agenda-skip-entry-if 'notregexp ":DAILY:"))))
+        ;; other commands here
+        ))
+
+(setq org-agenda-custom-commands
+      '(("c" "Simple agenda view"
+         ((tags "PRIORITY=\"A\""
+                ((org-agenda-skip-function '(org-agenda-skip-entry-if 'todo 'done))
+                 (org-agenda-overriding-header "High-priority unfinished tasks:")))
+          (agenda "")
+          (alltodo "")))))
 #+END_SRC
 
 * Themes and modeline

@@ -1,3 +1,5 @@
-* Refinforocement learning
+* Refinforcement learning
+** TODO Deep Reinforcement class
 * Software applications
+
 ** ZeroMQ Message passing

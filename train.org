@@ -1,0 +1,26 @@
+* Climb calendar
+| Week Starting | Mon | Tues | Wed | Thurs | Fri | Sat | Sun |
+|   Feb 26      |     |      |     |       |     |     |     |
+|   March 5     |     |      |     |       |     |     |     |
+
+* Rehab calendar
+| Week Starting | Mon | Tues | Wed | Thurs | Fri | Sat | Sun |
+|   Feb 26      |     |      |     |       |     |     |     |
+|   March 5     |     |      |     |       |     |     |     |
+
+
+* TODO Foam roll :DAILY:
+SCHEDULED: <2018-02-22 Thu +1d>
+- State "DONE"       from "IN_PROGRESS" [2018-02-22 Thu 23:23]
+
+* TODO Push ups :DAILY:
+- State "DONE"       from "TODO"       [2018-02-22 Thu 23:32]
+15 x 2 feet elevated
+15 regular
+SCHEDULED: <2018-02-22 Thu +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2018-02-22 Thu 23:32]
+:END:
+
+
+  
