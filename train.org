@@ -1,29 +1,23 @@
 * Climb calendar
 | Week Starting | Mon | Tues | Wed | Thurs | Fri | Sat | Sun 
-|   Feb 19      |     |   x  |     |       |     |     |     |
-|   Feb 26      |     |      |     |       |     |     |     |
-|   March 5     |     |      |     |       |     |     |     |
+|   Feb 19      |     |   x  |     |       |     |  x  |     |
+|   Feb 26      |  x  |      |     |       |  x  |     |     |
+|   March 5     |  x  |      |  x  |       |     |     |     |
 
 * Run calendar
 | Week Starting | Mon | Tues | Wed | Thurs | Fri | Sat | Sun 
-|   Feb 19      |  x  |      |  x  |   x   |     |     |     |
-|   Feb 26      |     |      |     |       |     |     |     |
-|   March 5     |     |      |     |       |     |     |     |
+|   Feb 19      |     |      |  x  |   x   |     |     |     |
+|   Feb 26      |     |   x  |     |   x   |     |     |     |
+|   March 5     |     |   x  |     |   x   |  x  |     |     |
 
 * Rehab calendar
 | Week Starting | Mon | Tues | Wed | Thurs | Fri | Sat | Sun |
 |   Feb 26      |     |      |     |       |     |     |     |
 |   March 5     |     |      |     |       |     |     |     |
 
-* Strenth calendar
+* Strength calendar
 | Week Starting | Mon | Tues | Wed | Thurs | Fri | Sat | Sun |
 |   Feb 26      |     |      |     |       |     |     |     |
 |   March 5     |     |      |     |       |     |     |     |
 
 
-* NEXT Friday 6 miler
-SCHEDULED: <2018-02-23 Fri>
-
-* NEXT Make- morning home core circuit 30-40 minute circuit
-SCHEDULED: <2018-02-23 Fri>
-Dig into the climbing book

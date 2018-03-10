@@ -3,13 +3,33 @@
 ** DONE SET 2
 ** DONE SET 3
 ** DONE SET 4
-** NEXT SET 5
+** DONE SET 5
 DEADLINE: <2018-02-24 Sat>
 Finish till RSA : Implement simple for 34 in simulation
 ** TODO SET 6
-* CTF
-* Projects with Haversham
-** Break A real image classifier 
-** Get the voice to misclassify -simply
-Just get the attack working
-** Write a review blog on all of the image attacks
+SCHEDULED: <2018-02-24 Sat>
+* Microcorruption
+* Adversarial ML
+Before I shift focus onto work and microcorruption. I'd like to get
+some of the adversarial work claered away in a good space. 
+
+I've got the writeups for 4 out of 5 big papers. The one I have not
+read carefully is the one under joint.  If we could read, understand
+and take his code base and implement it. That would be a good end.
+
+A short easy writeup on the big picture of that would be good too.
+** Joint
+*** Towards Evaluating the Robustness of Neural Networks N. Carlini et al., SSP 2017
+[[https://nicholas.carlini.com/code/nn_robust_attacks/][Code]]
+** Haversham
+*** Writeup for carlini attack
+** Ari
+*** [[https://arxiv.org/abs/1312.6199]]
+*** [[https://arxiv.org/abs/1412.6572]]
+*** [[https://arxiv.org/abs/1602.02697]]
+*** [[https://arxiv.org/abs/1511.07528]]
+
+* Readings
+** Example systems from textbook
+* Security conferences 
+http://www.guide2research.com/topconf/

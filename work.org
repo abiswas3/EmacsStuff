@@ -34,6 +34,8 @@
 *** Neural Style
 *** U net
 
+* Software development exercises
+** Train a hlstmd on distributed CPU over the weekend
 * Refinforcement learning
 ** DELAYED Deep Reinforcement class
 
