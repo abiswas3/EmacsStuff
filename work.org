@@ -1,5 +1,56 @@
+* Amazon speficic Software tasks
+** Install brazil
+* Research
+** Object Detection/Localization
+*** R-CNN:https://arxiv.org/pdf/1311.2524v5.pdf
+**** DONE HOG
+**** NEXT Selective search
+      SCHEDULED: <2018-03-09 Fri>
+***** DELAYED Efficient GraphBased Image Segmentation
+**** TODO ImageNet classification with deep convolutional neural networks
+**** DONE Bounding box regression:
+     Pretty simple nothing really much to it. Need to re-derive one
+     more time
+*** TODO Fast R-CNN https://arxiv.org/pdf/1504.08083.pdf
+    SCHEDULED: <2018-03-12 Mon>
+*** TODO Faster R-CNN https://arxiv.org/pdf/1506.01497v3.pdf
+    SCHEDULED: <2018-03-12 Mon>
+*** https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Erhan_Scalable_Object_Detection_2014_CVPR_paper.pdf
+*** http://web.eecs.umich.edu/~honglak/cvpr15-cnn-detection.pdf
+*** https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Gidaris_Object_Detection_via_ICCV_2015_paper.pdf
+*** http://www.robots.ox.ac.uk/~vedaldi/assets/pubs/lenc15rcnn.pdf
+*** http://calvin.inf.ed.ac.uk/wp-content/uploads/Publications/alexe12pami.pdf
+
+** Segmentation
+*** https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf
+*** http://calvin.inf.ed.ac.uk/wp-content/uploads/Publications/papazoglouICCV2013-camera-ready.pdf
+*** https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/Borenstein06.pdf
+*** http://crcv.ucf.edu/papers/cvpr2013/VideoObjectSegmentation.pdf
+*** http://www.cs.utexas.edu/~grauman/papers/shape-sharing-ECCV2012.pdf
+   
+** Misc
+*** Object detection with discriminatively trained part based models
+*** Example-based learning for viewbased human face detection. 
+*** Neural Style
+*** U net
+
 * Refinforcement learning
-** TODO Deep Reinforcement class
-DEADLINE: <2018-03-03 Sat>
+** DELAYED Deep Reinforcement class
+
 * Software applications
 ** ZeroMQ Message passing
+      
+* Transfer Learning
+** https://arxiv.org/pdf/1411.1792v1.pdf
+** https://arxiv.org/pdf/1403.6382.pdf
+** https://arxiv.org/pdf/1310.1531.pdf
+** https://arxiv.org/pdf/1705.07706.pdf
+** https://arxiv.org/pdf/1707.09872.pdf
+
+* Classical Papers
+** https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+** https://arxiv.org/pdf/1311.2901v3.pdf
+** https://arxiv.org/pdf/1409.1556v6.pdf
+** https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf
+** https://arxiv.org/pdf/1512.03385v1.pdf
+** https://arxiv.org/pdf/1412.2306v2.pdf

@@ -45,9 +45,7 @@
              )
             (global-set-key "\C-ca" 'org-agenda)
 
-            (setq org-agenda-files (list "~/org/work.org"
-                "~/org/train.org"
-                "~/org/reichenbach.org"))
+            (setq org-agenda-files (list "~/org/work.org"))
 
 ;(setq org-todo-keywords '((sequence "TODO" "IN_PROGRESS" "WAITING" "|" "DONE" "DELEGATED")))
 ;(setq org-todo-keywords '((type "Fred" "Sara" "Lucy" "|" "DONE")))
